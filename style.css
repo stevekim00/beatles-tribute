@@ -1,0 +1,61 @@
+* {
+    margin: auto;
+    
+    line-height: 20px;
+  }
+  
+  #main {
+    font-family: 'Helvetica Neue', "Arial", sans-serif;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1080px;
+  }
+  
+  #title {
+    margin: 80px auto;
+  }
+  
+  h1 {
+    font-size: 3em;
+  }
+  
+  #img-div, #tribute-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #image {
+    width: 100%;
+    height: auto;
+    max-width: 1080px;
+  }
+  
+  #img-caption {
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+  #tribute-info-header {
+    margin: 20px auto;
+  }
+  
+  #tribute-info {
+    width: 90%;
+    max-width: 600px;
+  }
+  
+  li {
+    margin: 20px 0;
+  }
+  
+  #quote {
+    margin-top: 30px;
+  }
+  
+  #footer {
+    margin: 50px auto;
+    width: 90%;
+    display: flex;
+  }
